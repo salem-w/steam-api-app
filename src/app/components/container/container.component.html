@@ -13,7 +13,7 @@
 </div>
 -->
 <div class="container" *ngFor="let game of games">
-        <img src={{game.imgUrl}}>
+        <a href="#" id="anchor"><img id={{game.appid}} src={{game.imgUrl}}></a>
         <div class="bottom-left">{{game.price}}</div>
         <b style="color:black;">{{game.name}}</b>
 </div>
