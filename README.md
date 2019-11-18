@@ -1,5 +1,8 @@
 # SteamApiApp
 [Click here for a hosted version!](https://steam-api-app.firebaseapp.com/)
+
+This app uses angular to list the top 24 steam apps, the json file with that information is a slightly modified locally stored file(for now) from [this site.](https://steamspy.com/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Development server
