@@ -118,8 +118,13 @@
               "devServerTarget": "steam-api-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "steam-api-app"
 }

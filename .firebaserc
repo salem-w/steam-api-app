@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "steam-api-app": {
+      "hosting": {
+        "steam-api-app": [
+          "steam-api-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "what": "steam-api-app"
+  }
+}
