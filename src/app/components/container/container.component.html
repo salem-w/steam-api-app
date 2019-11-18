@@ -1,0 +1,19 @@
+<!--
+<div class="container">
+    
+        <img src="https://steamcdn-a.akamaihd.net/steam/apps/730/header.jpg">
+        <div class="bottom-left">$59.99</div>
+        <b style="color:black;">Counter Strike</b>
+
+        <app-games *ngFor="let game of games" [game]="game">
+                
+        </app-games>
+    
+
+</div>
+-->
+<div class="container" *ngFor="let game of games">
+        <img src={{game.imgUrl}}>
+        <div class="bottom-left">{{game.price}}</div>
+        <b style="color:black;">{{game.name}}</b>
+</div>

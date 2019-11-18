@@ -1,0 +1,18 @@
+div.container {
+    background: #e0e0e0;
+    display: inline-block;
+    height: 235px;
+    width: 460px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    color: green;
+    background: black;
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+}
+
